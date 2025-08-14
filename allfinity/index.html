@@ -1,2 +1,43 @@
 <!DOCTYPE html>
-<!-- Conteúdo completo da home conforme planejado -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allfinity - Bem-vindo</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Header -->
+    <header class="bg-gray-800 p-4 flex justify-between items-center shadow-md">
+        <img src="images/logo.png" alt="Logo Allfinity" class="h-12">
+        <nav>
+            <ul class="flex gap-6">
+                <li><a href="index.html" class="hover:text-purple-400">Início</a></li>
+                <li><a href="produtos.html" class="hover:text-purple-400">Produtos</a></li>
+                <li><a href="contatos.html" class="hover:text-purple-400">Contato</a></li>
+                <li><a href="formulario.html" class="hover:text-purple-400">Formulário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="text-center py-20">
+        <h1 class="text-4xl font-bold text-purple-400">Bem-vindo à Allfinity</h1>
+        <p class="mt-4 text-lg text-gray-300">Sua loja de dropshipping com estilo futurista e profissional.</p>
+    </section>
+
+    <!-- Notícias -->
+    <section class="p-8">
+        <h2 class="text-2xl font-semibold text-purple-300 mb-4">Notícias Recentes</h2>
+        <div id="noticias" class="grid md:grid-cols-3 gap-6"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-center py-4 mt-8">
+        <p>&copy; 2025 Allfinity. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
