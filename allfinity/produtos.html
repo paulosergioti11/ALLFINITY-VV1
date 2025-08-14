@@ -1,2 +1,42 @@
 <!DOCTYPE html>
-<!-- Conteúdo completo da página de produtos -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Allfinity</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <header class="bg-gray-800 p-4 flex justify-between items-center shadow-md">
+        <img src="images/logo.png" alt="Logo Allfinity" class="h-12">
+        <nav>
+            <ul class="flex gap-6">
+                <li><a href="index.html" class="hover:text-purple-400">Início</a></li>
+                <li><a href="produtos.html" class="hover:text-purple-400">Produtos</a></li>
+                <li><a href="contatos.html" class="hover:text-purple-400">Contato</a></li>
+                <li><a href="formulario.html" class="hover:text-purple-400">Formulário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="p-8">
+        <h2 class="text-3xl font-bold text-purple-400 mb-6">Produtos</h2>
+        <p class="text-gray-300 mb-6">Explore nossas categorias e encontre o que precisa.</p>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-4 rounded shadow">
+                <h3 class="text-xl text-purple-300">Produto 1</h3>
+                <p class="text-gray-400">Descrição breve do produto.</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded shadow">
+                <h3 class="text-xl text-purple-300">Produto 2</h3>
+                <p class="text-gray-400">Descrição breve do produto.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-center py-4 mt-8">
+        <p>&copy; 2025 Allfinity. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
